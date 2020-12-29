@@ -1,0 +1,420 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+.wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.line {
+    border: none;
+    background-color: #E5E5E5;
+    height: 1px;
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+}
+.navbar-two {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.navbar li {
+    margin: 15px 16px 15px 17px;
+}
+.navbar-two li {
+    margin: 27px 5px 26px 34px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.navbar-two li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.bg-white {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bg-white-1 {
+    background-color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    align-items: center;
+    display: flex;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #66C05D;
+    margin-left: 24px;
+}
+.logo::before {
+    content: '';
+    display: block;
+    background-image: url(../img/logo.png);
+    width: 80px;
+    height: 80px;
+    margin-right: 18px;
+}
+.header-info span {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 36px;
+}
+.header-info button {
+    font-size: 14px;
+    line-height: 1.5;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+    background-color: transparent;
+    padding: 8px 25px 8px 24px;
+    cursor: pointer;
+    margin-right: -19px;
+    outline: none;
+}
+.banner {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 202px;
+    padding-top: 191px;
+}
+.bn_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.bn_text {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.bn-btn {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px 49px 10px 48px;
+    background: #66C05D;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 22px;
+}
+.main-title h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+}
+.main-trade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.chair {
+    background-color: #FFFFFF;
+    margin-left: 30px;
+    text-align: center;
+    padding: 26px 30px 32px 30px;
+}
+.chair:first-child {
+    margin: 0;
+}
+.chair-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.chair-money {
+    color: #000000;
+    letter-spacing: 0.05em;
+    line-height: 25px;
+    font-size: 21px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.chair-btn {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #66C05D;
+    border-radius: 30px;
+    padding: 9px 40px 9px 40px;
+    text-decoration: none;
+}
+.connect-info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 132px;
+}
+.info-flex {
+    background-color: #66C05D;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 25px 45px 37px 42px;
+    align-items: center;
+}
+.input {
+    margin: 0 65px 0 0;
+}
+.input h1 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+}
+.input p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 16px;
+}
+.email {
+    border-radius: 30px;
+    color: #C4C4C4;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 9px 42px 9px 25px;
+    outline: none;
+    border: none;
+}
+.img-sms {
+    padding-top: 16px;
+}
+.info-map {
+    background-color: #66C05D;
+    color: #FFFFFF;
+}
+.info-map h1 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.info-map p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 21px;
+}
+.map-btn {
+    font-size: 14px;
+    line-height: 16px;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    padding: 8px 30px 8px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.map-flex {
+    padding: 35px 250px 35px 40px;
+    width: 251px;
+}
+.footer-wr {
+    background: #FFFFFF;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 ;
+}
+.social {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+.social-item {
+    margin-right: 16px;
+}
+.social-link {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #66C05D;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social-youtube {
+    background-image: url(../img/soc1.png);
+}
+.social-vk {
+    background-image: url(../img/soc2.png);
+}
+.social-fc {
+    background-image: url(../img/soc3.png);
+}
+.social-inst {
+    background-image: url(../img/soc4.png);
+}
+.address {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding-right: 105px;
+}
+.num {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-right: 40px;
+}
+.btn-footer {
+    font-size: 14px;
+    line-height: 1.5;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+    background-color: transparent;
+    padding: 8px 25px 8px 24px;
+    cursor: pointer;
+    outline: none;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer-bottom p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 800px;
+    }
+    .chair {
+        padding: 20px 30px 20px 30px;
+        margin-left: 0;
+    }
+    .connect-info { 
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+    }
+    .main-trade {
+        padding-bottom: 40px;
+        flex-wrap: wrap;
+    }
+    .social-link {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-info {
+        display: flex;
+        align-items: center;
+    }
+    .address {
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    .footer-bottom p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        max-width: 600px;
+    }
+    .chair {
+        margin-bottom: 10px;
+    }
+    .chair:first-child {
+        margin-bottom: 10px;
+    }
+    .main-trade {
+        display: block;
+    }
+    .logo {
+        margin-left: 0;
+        font-size: 25px;
+    }
+    .header-info span {
+        margin-right: 5px;
+    }
+    .header-info button {
+        font-size: 12px;
+        border: 1px solid #66C05D;
+    }
+    .bn_title {
+        padding-bottom: 5px;
+        font-size: 32px;
+    }
+    .bn_text {
+        padding-bottom: 22px;
+        font-size: 12px;
+    }
+    .bn-btn {
+        background: none;
+        border: 1px solid #FFFFFF;
+        font-size: 12px;
+    }
+    .social-item {
+        margin-right: 2px;
+    }
+    .btn-footer {
+        font-size: 8px;
+        border: 1px solid #66C05D;
+        padding: 5px 10px 5px 10px;
+    }
+    .num {
+        font-size: 8px;
+        padding-right: 20px;
+    }
+    .address {
+        padding-right: 50px;
+        font-size: 10px;
+    }
+    .footer-bottom p {
+        font-size: 6px;
+    }
+    .navbar-two li a {
+        font-size: 12px;
+    }
+    .navbar li a {
+        font-size: 12px;
+    }
+}
